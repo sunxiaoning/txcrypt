@@ -49,10 +49,12 @@ main() {
 }
 
 terminate() {
-  echo "terminating..."
+  echo "[${SCRIPT_NAME}] Terminating..."
 }
 
 cleanup() {
+  echo "[${SCRIPT_NAME}] Cleanup..."
+
   if [[ "${#TEMP_FILES[@]}" -gt 0 ]]; then
     echo "Cleaning temp_files...."
 
