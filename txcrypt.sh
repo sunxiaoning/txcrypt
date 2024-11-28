@@ -23,6 +23,24 @@ main() {
   remove-keypair)
     remove-keypair
     ;;
+  export-keypair)
+    export-keypair
+    ;;
+  export-keypub)
+    export-keypub
+    ;;
+  export-keypriv)
+    export-keypriv
+    ;;
+  import-keypair)
+    import-keypair
+    ;;
+  import-keypub)
+    import-keypub
+    ;;
+  import-keypriv)
+    import-keypriv
+    ;;
   remove-keypub)
     remove-keypub
     ;;
